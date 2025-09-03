@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:arial,sans-serif;
+}
+header
+{
+   background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.box{
+    width: 100%;
+    height:30px;
+    background-color: black;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   color:white
+}
+.box ul
+{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+  gap:20px;
+  align-items:center;
+}
+.box2{
+    background-image: url(images/index.png);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    color:white;
+}
+.box2 h2{
+    margin-top: 0;
+    padding-top:50px;
+    text-align: center;
+    font-style: oblique;
+}
+.box2 .columns {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.box2 .column {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.boxx1, .boxx2, .boxx3, .boxx4, .boxx5, .boxx6 {
+    width: 300px;
+    height: 80px;
+   background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    box-shadow: 20px 20px 20px gray;
+    border-radius: 10px;
+font-style: italic;
+}
+.boxx1:hover, .boxx2:hover, .boxx3:hover, .boxx4:hover, .boxx5:hover, .boxx6 :hover{
+    cursor: pointer;
+    transform:scale(1.6);
+}
+.box3{
+background-color: blue;      background-size: cover;
+     background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box3 h2{
+    font-size: medium;
+    margin-top: 0;
+    padding-top:50px;
+    text-align: center;
+}
+.box3 p{
+    text-align: center;
+}
+.box3 button:hover{
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 3px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@media(max-width:700px)
+{
+    .columns
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
